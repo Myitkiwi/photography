@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Ian D. Findlay Photographs</title>
+  <link rel="stylesheet" href="./expanding.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
+ 
+
+
+<a href="index.html">
+  <button class="btn-55"><span>Home</span></button>
+
+</a>
+
+
+  <header>
+    <div class="main">
+      
+      <h1> Click the images to see in full screen!</h1>
+    </div>
+  </header>
+  <section class="demos">
+    <!-- Using divs for the demo, for formatting... you can use images if you want!  -->
+    <div class="demo-image first" data-image="/expanding-img/Hicks-Bay.jpg" data-title="Hicks Bay" data-caption="With lots of wheaty puffs. Love those puffs."></div>
+    <div class="demo-image second" data-image="expanding-img/The-view.jpg" 
+    data-title="Hokianga Harbour" data-caption="Longing for exploration. Explore me!"></div>
+    <div class="demo-image third" data-image="expanding-img/Harbour.jpg" 
+    data-title="Hokianga Harbour" data-caption="Longing for exploration. Explore me!"></div>
+    <div class="demo-image forth" data-image="expanding-img/The-point.jpg" 
+    data-title="Hokianga Harbour" data-caption="Longing for exploration. Explore me!"></div>
+    <div class="demo-image fifth" data-image="expanding-img/CrystalBall.jpg" 
+    data-title="Hokianga Harbour" data-caption="Longing for exploration. Explore me!"></div>
+  </section>
+
+  <footer>
+    <h1> <a href="http://webwizardry.nz" target="_blank">
+      By Ian D. Findlay</a> &bull;
+      <a href="https://itian.nz" target="_blank">computer Doctor</a> 
+    </h1>
+  </footer>
+
+  <script>
+    window.onload = function() {
+    var elements = document.querySelectorAll( '.demo-image' );
+    Intense( elements );
+    }
+  </script>
+<!-- partial -->
+  <script  src="./expanding.js"></script>
+
+</body>
+</html>
